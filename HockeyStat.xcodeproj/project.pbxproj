@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E7B44DB6D0A6948B933B56F /* Pods_HockeyStat_HockeyStatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF521FCECE60710B242E7421 /* Pods_HockeyStat_HockeyStatUITests.framework */; };
 		BAF24C92256465670056D226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF24C91256465670056D226 /* AppDelegate.swift */; };
 		BAF24C94256465670056D226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF24C93256465670056D226 /* SceneDelegate.swift */; };
 		BAF24C96256465670056D226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF24C95256465670056D226 /* ViewController.swift */; };
@@ -15,6 +16,14 @@
 		BAF24C9E256465680056D226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF24C9C256465680056D226 /* LaunchScreen.storyboard */; };
 		BAF24CA9256465680056D226 /* HockeyStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF24CA8256465680056D226 /* HockeyStatTests.swift */; };
 		BAF24CB4256465680056D226 /* HockeyStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF24CB3256465680056D226 /* HockeyStatUITests.swift */; };
+		BAF24CEE25649F230056D226 /* ShotTakenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF24CED25649F230056D226 /* ShotTakenView.xib */; };
+		BAF54FB9256DA3860071A5A8 /* ShotTakenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF54FB8256DA3860071A5A8 /* ShotTakenViewController.swift */; };
+		BAF54FBE256DA9CC0071A5A8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF54FBD256DA9CC0071A5A8 /* Player.swift */; };
+		BAF54FC3256DAA220071A5A8 /* PlayerName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF54FC2256DAA220071A5A8 /* PlayerName.swift */; };
+		BAF54FC8256DAC280071A5A8 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF54FC7256DAC280071A5A8 /* Shift.swift */; };
+		BAF54FCD256DB1AA0071A5A8 /* ShiftChangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF54FCC256DB1AA0071A5A8 /* ShiftChangeView.xib */; };
+		C482C33D372C9664B15777F7 /* Pods_HockeyStatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20043AFF53FB7DADD5BE6EA5 /* Pods_HockeyStatTests.framework */; };
+		CCA174AC1E38227F52FFE340 /* Pods_HockeyStat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67093EACE7C4D9DF0C0582D9 /* Pods_HockeyStat.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20043AFF53FB7DADD5BE6EA5 /* Pods_HockeyStatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HockeyStatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6547C20936C8D36EEE140731 /* Pods-HockeyStat-HockeyStatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyStat-HockeyStatUITests.debug.xcconfig"; path = "Target Support Files/Pods-HockeyStat-HockeyStatUITests/Pods-HockeyStat-HockeyStatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67093EACE7C4D9DF0C0582D9 /* Pods_HockeyStat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HockeyStat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A24E85150B3C90B86B2B67 /* Pods-HockeyStat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyStat.debug.xcconfig"; path = "Target Support Files/Pods-HockeyStat/Pods-HockeyStat.debug.xcconfig"; sourceTree = "<group>"; };
+		9B16EBD97A7A58160D17F801 /* Pods-HockeyStatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyStatTests.debug.xcconfig"; path = "Target Support Files/Pods-HockeyStatTests/Pods-HockeyStatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAF24C8E256465670056D226 /* HockeyStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF24C91256465670056D226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF24C93256465670056D226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,16 @@
 		BAF24CAF256465680056D226 /* HockeyStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HockeyStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF24CB3256465680056D226 /* HockeyStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyStatUITests.swift; sourceTree = "<group>"; };
 		BAF24CB5256465680056D226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF24CED25649F230056D226 /* ShotTakenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShotTakenView.xib; sourceTree = "<group>"; };
+		BAF54FB8256DA3860071A5A8 /* ShotTakenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotTakenViewController.swift; sourceTree = "<group>"; };
+		BAF54FBD256DA9CC0071A5A8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BAF54FC2256DAA220071A5A8 /* PlayerName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerName.swift; sourceTree = "<group>"; };
+		BAF54FC7256DAC280071A5A8 /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		BAF54FCC256DB1AA0071A5A8 /* ShiftChangeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShiftChangeView.xib; sourceTree = "<group>"; };
+		CF521FCECE60710B242E7421 /* Pods_HockeyStat_HockeyStatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HockeyStat_HockeyStatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D777F4A7E6CF0DE50603E12C /* Pods-HockeyStatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyStatTests.release.xcconfig"; path = "Target Support Files/Pods-HockeyStatTests/Pods-HockeyStatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0AC540E6E7B04F766EDDF7C /* Pods-HockeyStat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyStat.release.xcconfig"; path = "Target Support Files/Pods-HockeyStat/Pods-HockeyStat.release.xcconfig"; sourceTree = "<group>"; };
+		F0E0C711778F719F5D7AD325 /* Pods-HockeyStat-HockeyStatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HockeyStat-HockeyStatUITests.release.xcconfig"; path = "Target Support Files/Pods-HockeyStat-HockeyStatUITests/Pods-HockeyStat-HockeyStatUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA174AC1E38227F52FFE340 /* Pods_HockeyStat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C482C33D372C9664B15777F7 /* Pods_HockeyStatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +96,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7B44DB6D0A6948B933B56F /* Pods_HockeyStat_HockeyStatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E495D67EAB764DDD56A5DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A24E85150B3C90B86B2B67 /* Pods-HockeyStat.debug.xcconfig */,
+				E0AC540E6E7B04F766EDDF7C /* Pods-HockeyStat.release.xcconfig */,
+				6547C20936C8D36EEE140731 /* Pods-HockeyStat-HockeyStatUITests.debug.xcconfig */,
+				F0E0C711778F719F5D7AD325 /* Pods-HockeyStat-HockeyStatUITests.release.xcconfig */,
+				9B16EBD97A7A58160D17F801 /* Pods-HockeyStatTests.debug.xcconfig */,
+				D777F4A7E6CF0DE50603E12C /* Pods-HockeyStatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B75CDAED5448540EB7E7F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67093EACE7C4D9DF0C0582D9 /* Pods_HockeyStat.framework */,
+				CF521FCECE60710B242E7421 /* Pods_HockeyStat_HockeyStatUITests.framework */,
+				20043AFF53FB7DADD5BE6EA5 /* Pods_HockeyStatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAF24C85256465670056D226 = {
 			isa = PBXGroup;
 			children = (
+				BAF24CE925649EF40056D226 /* ViewControllers */,
+				BAF24CDA256495510056D226 /* Models */,
+				BAF24CD9256495470056D226 /* Popovers */,
 				BAF24C90256465670056D226 /* HockeyStat */,
 				BAF24CA7256465680056D226 /* HockeyStatTests */,
 				BAF24CB2256465680056D226 /* HockeyStatUITests */,
 				BAF24C8F256465670056D226 /* Products */,
+				6E495D67EAB764DDD56A5DD3 /* Pods */,
+				8B75CDAED5448540EB7E7F21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +183,33 @@
 			path = HockeyStatUITests;
 			sourceTree = "<group>";
 		};
+		BAF24CD9256495470056D226 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				BAF24CED25649F230056D226 /* ShotTakenView.xib */,
+				BAF54FCC256DB1AA0071A5A8 /* ShiftChangeView.xib */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+		BAF24CDA256495510056D226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAF54FBD256DA9CC0071A5A8 /* Player.swift */,
+				BAF54FC2256DAA220071A5A8 /* PlayerName.swift */,
+				BAF54FC7256DAC280071A5A8 /* Shift.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAF24CE925649EF40056D226 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAF54FB8256DA3860071A5A8 /* ShotTakenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF24CB8256465680056D226 /* Build configuration list for PBXNativeTarget "HockeyStat" */;
 			buildPhases = (
+				F242F1F39A3A222B92CAA96B /* [CP] Check Pods Manifest.lock */,
 				BAF24C8A256465670056D226 /* Sources */,
 				BAF24C8B256465670056D226 /* Frameworks */,
 				BAF24C8C256465670056D226 /* Resources */,
+				47D6CF8AF136F8300560C25A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF24CBB256465680056D226 /* Build configuration list for PBXNativeTarget "HockeyStatTests" */;
 			buildPhases = (
+				A19AB4DE4F22D7C66B1C1145 /* [CP] Check Pods Manifest.lock */,
 				BAF24CA0256465680056D226 /* Sources */,
 				BAF24CA1256465680056D226 /* Frameworks */,
 				BAF24CA2256465680056D226 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF24CBE256465680056D226 /* Build configuration list for PBXNativeTarget "HockeyStatUITests" */;
 			buildPhases = (
+				8B9DD0719E47384FD33E6990 /* [CP] Check Pods Manifest.lock */,
 				BAF24CAB256465680056D226 /* Sources */,
 				BAF24CAC256465680056D226 /* Frameworks */,
 				BAF24CAD256465680056D226 /* Resources */,
+				5EBB2914D764775120F89896 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +320,9 @@
 			files = (
 				BAF24C9E256465680056D226 /* LaunchScreen.storyboard in Resources */,
 				BAF24C9B256465680056D226 /* Assets.xcassets in Resources */,
+				BAF24CEE25649F230056D226 /* ShotTakenView.xib in Resources */,
 				BAF24C99256465670056D226 /* Main.storyboard in Resources */,
+				BAF54FCD256DB1AA0071A5A8 /* ShiftChangeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +342,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47D6CF8AF136F8300560C25A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HockeyStat/Pods-HockeyStat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HockeyStat/Pods-HockeyStat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HockeyStat/Pods-HockeyStat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EBB2914D764775120F89896 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HockeyStat-HockeyStatUITests/Pods-HockeyStat-HockeyStatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HockeyStat-HockeyStatUITests/Pods-HockeyStat-HockeyStatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HockeyStat-HockeyStatUITests/Pods-HockeyStat-HockeyStatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9DD0719E47384FD33E6990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HockeyStat-HockeyStatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A19AB4DE4F22D7C66B1C1145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HockeyStatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F242F1F39A3A222B92CAA96B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HockeyStat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAF24C8A256465670056D226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF54FB9256DA3860071A5A8 /* ShotTakenViewController.swift in Sources */,
 				BAF24C96256465670056D226 /* ViewController.swift in Sources */,
 				BAF24C92256465670056D226 /* AppDelegate.swift in Sources */,
+				BAF54FC8256DAC280071A5A8 /* Shift.swift in Sources */,
+				BAF54FC3256DAA220071A5A8 /* PlayerName.swift in Sources */,
+				BAF54FBE256DA9CC0071A5A8 /* Player.swift in Sources */,
 				BAF24C94256465670056D226 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +629,7 @@
 		};
 		BAF24CB9256465680056D226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A24E85150B3C90B86B2B67 /* Pods-HockeyStat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +643,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dscode.HockeyStat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		BAF24CBA256465680056D226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AC540E6E7B04F766EDDF7C /* Pods-HockeyStat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +663,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dscode.HockeyStat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		BAF24CBC256465680056D226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B16EBD97A7A58160D17F801 /* Pods-HockeyStatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +692,7 @@
 		};
 		BAF24CBD256465680056D226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D777F4A7E6CF0DE50603E12C /* Pods-HockeyStatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +715,7 @@
 		};
 		BAF24CBF256465680056D226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6547C20936C8D36EEE140731 /* Pods-HockeyStat-HockeyStatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +736,7 @@
 		};
 		BAF24CC0256465680056D226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E0C711778F719F5D7AD325 /* Pods-HockeyStat-HockeyStatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
